@@ -14,6 +14,7 @@ def define_argparser():
     p.add_argument(
         '--api_key',
         type=str,
+        help="openai_key",
     )
     
     config = p.parse_args()
