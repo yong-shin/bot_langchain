@@ -49,7 +49,7 @@ def query_contra(text, persist_directory, embedding):
 
 def main(config):
     os.environ["OPENAI_API_KEY"] = config.api_key
-
+    # test
     loader = TextLoader('./콘트라베이스_표준제안서.txt')
     documents = loader.load()
 
